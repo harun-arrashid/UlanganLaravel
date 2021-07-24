@@ -60,6 +60,10 @@ class AgentSearchActivity : AppCompatActivity(), AgentSearchContract.View {
             //// asdasdasdasd
     }
 
+    fun showkk(it: String) {
+
+    }
+
     override fun onResultAgent(it: ResponseAgentList) {
         mAdapter.setData(it.data!!)
     }
